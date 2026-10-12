@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An interactive Linux command learning lab with challenges, a safe terminal, and saved progress.">
+  <title>Command Lab | Linux Learning Hub</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/lab.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="learning-hub.html" aria-label="LinuxHub Practice Lab"><span class="brand-mark">&gt;_</span>Linux<span>Hub</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="active" href="learning-hub.html">Practice Lab</a></li><li><a class="nav-button" href="mcq.html">MCQ Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="lab-page">
+    <section class="lab-topbar">
+      <div class="container lab-topbar-inner">
+        <div>
+          <p class="lab-kicker"><span></span> Interactive learning workspace</p>
+          <h1>Learn Linux by <em>using it.</em></h1>
+          <p class="lab-intro">Work through small missions in a safe terminal. Your commands, XP, and completed challenges stay on this device.</p>
+        </div>
+        <div class="learner-summary" aria-label="Your learning progress"><div class="summary-avatar">LH</div><div><span>YOUR PROGRESS</span><strong id="learner-level">Explorer · Level 1</strong></div><div class="summary-xp"><strong id="top-xp">0</strong><span>XP earned</span></div></div>
+      </div>
+    </section>
+    <section class="container lab-shell" aria-label="Linux command lab">
+      <div class="progress-strip" aria-label="Course progress"><div class="progress-copy"><span class="progress-orb">✦</span><div><strong id="progress-label">0 of 8 missions complete</strong><span id="progress-message">Start with your first command.</span></div></div><div class="progress-track" aria-hidden="true"><span id="progress-fill"></span></div><strong class="progress-percent" id="progress-percent">0%</strong></div>
+      <div class="workspace-layout">
+        <aside class="mission-sidebar" aria-label="Learning missions">
+          <div class="sidebar-heading"><div><span>COMMAND PATH</span><h2>Foundations</h2></div><button class="reset-progress" id="reset-progress" type="button" title="Reset saved learning progress">↺</button></div>
+          <ol class="mission-list" id="mission-list"></ol>
+          <div class="sidebar-note"><span>⌘</span><p><strong>Practice safely.</strong> This terminal is a browser simulation—no files on your computer are changed.</p></div>
+        </aside>
+        <section class="challenge-panel" aria-live="polite">
+          <div class="challenge-toolbar"><span class="live-dot"></span><span>MISSION <b id="mission-number">01</b></span><span class="toolbar-divider"></span><span id="mission-topic">NAVIGATION</span><button id="next-mission" class="next-mission" type="button">Next mission <span>→</span></button></div>
+          <div class="challenge-content">
+            <div class="challenge-copy"><div class="mission-tag" id="mission-tag">BEGINNER</div><h2 id="challenge-title">See what is here</h2><p id="challenge-description">List every file in your home directory, including hidden files.</p><div class="task-card"><span class="task-label">YOUR OBJECTIVE</span><code id="objective-command">ls -la</code><button class="copy-command" id="copy-command" type="button" aria-label="Copy suggested command">Copy</button></div><div class="hint-row"><button id="toggle-hint" type="button"><span>?</span> Need a hint?</button><p id="hint-text" hidden></p></div></div>
+            <div class="mission-meta"><div><span>SKILL</span><strong id="mission-skill">File discovery</strong></div><div><span>REWARD</span><strong><b id="mission-xp">25</b> XP</strong></div><div><span>STATUS</span><strong id="mission-status">Ready</strong></div></div>
+          </div>
+          <div class="terminal-card">
+            <div class="terminal-head"><div class="terminal-title"><i></i><i></i><i></i><span>learner@linuxhub — command-lab</span></div><div class="terminal-actions"><button id="clear-terminal" type="button">Clear</button><button id="terminal-help" type="button">Commands</button></div></div>
+            <div class="terminal-output" id="terminal-output" aria-live="polite" aria-label="Terminal output"></div>
+            <form class="terminal-input-row" id="terminal-form"><label for="terminal-input"><span id="prompt-path">learner@linuxhub:~$</span></label><input id="terminal-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type a command, then press Enter" aria-label="Terminal command"></form>
+          </div>
+          <div class="workspace-footer"><div id="terminal-status" role="status">Tip: press <kbd>↑</kbd> to revisit a command.</div><button class="check-solution" id="check-solution" type="button">Check mission <span>✓</span></button></div>
+        </section>
+        <aside class="context-sidebar" aria-label="Learning tools">
+          <section class="context-card file-card"><div class="context-heading"><span>YOUR SANDBOX</span><button id="refresh-files" type="button" aria-label="Refresh files">↻</button></div><p class="current-directory" id="current-directory">/home/learner</p><ul class="file-tree" id="file-tree"></ul></section>
+          <section class="context-card quick-card"><div class="context-heading"><span>QUICK REFERENCE</span></div><button class="quick-command" data-command="pwd" type="button"><code>pwd</code><span>where am I?</span></button><button class="quick-command" data-command="ls -la" type="button"><code>ls -la</code><span>list all files</span></button><button class="quick-command" data-command="help" type="button"><code>help</code><span>show supported commands</span></button></section>
+          <section class="streak-card"><span>⚡</span><div><strong id="streak-count">1 day streak</strong><p>Practice a command today to keep it going.</p></div></section>
+        </aside>
+      </div>
+    </section>
+    <section class="container learning-footer"><div><span>WHAT YOU'LL PRACTICE</span><p>Navigation · files · search · system info</p></div><p>Everything runs in your browser. Reset anytime.</p></section>
+  </main>
+  <footer><div class="container footer-grid"><div><a class="brand" href="learning-hub.html"><span class="brand-mark">&gt;_</span>Linux<span>Hub</span></a><p>Hands-on Linux learning for curious minds.</p></div><div><h3>Practice</h3><a href="learning-hub.html">Command Lab</a><a href="mcq.html">MCQ Quiz</a></div></div><div class="container footer-bottom"><p>© 2026 Linux Learning Hub. Training project.</p><p>Learn by doing <span>♥</span></p></div></footer>
+  <script src="assets/js/main.js"></script><script src="assets/js/learning-hub.js"></script>
+</body>
+</html>

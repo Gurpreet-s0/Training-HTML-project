@@ -1,0 +1,835 @@
+window.LINUX_MCQ_QUESTIONS = [
+  {
+    "source": "Introduction to Linux Operating System",
+    "url": "https://www.geeksforgeeks.org/quizzes/intoduction-to-linux-operating-system/",
+    "question": "Which statement best explains why Linux is called an open-source operating system?",
+    "options": [
+      "Linux can only be used by developers",
+      "The source code of Linux is freely available for everyone to view, modify, and distribute",
+      "Linux works only on open hardware",
+      "Linux cannot be sold commercially"
+    ],
+    "correct_answer": 1,
+    "explanation": "Open source means the source code is freely available for viewing, modification, and distribution."
+  },
+  {
+    "source": "Introduction to Linux Operating System",
+    "url": "https://www.geeksforgeeks.org/quizzes/intoduction-to-linux-operating-system/",
+    "question": "You are setting up a Linux system for an extremely low-spec computer. Which distribution from your content is the best choice?",
+    "options": [
+      "Ubuntu",
+      "Kali Linux",
+      "Lubuntu",
+      "Fedora"
+    ],
+    "correct_answer": 2,
+    "explanation": "Lubuntu is a lightweight Ubuntu variant using LXQt desktop, designed for low-spec hardware."
+  },
+  {
+    "source": "Introduction to Linux Operating System",
+    "url": "https://www.geeksforgeeks.org/quizzes/intoduction-to-linux-operating-system/",
+    "question": "In Linux architecture, which component directly interacts with hardware and manages processes, memory, and devices?",
+    "options": [
+      "Shell",
+      "System Library",
+      "Kernel",
+      "System Utilities"
+    ],
+    "correct_answer": 2,
+    "explanation": "The kernel is the core component that directly manages hardware resources, processes, memory, and devices."
+  },
+  {
+    "source": "Introduction to Linux Operating System",
+    "url": "https://www.geeksforgeeks.org/quizzes/intoduction-to-linux-operating-system/",
+    "question": "A system administrator wants to check the available disk space before installing new software. Which Linux command will they use?",
+    "options": [
+      "free",
+      "df",
+      "pwd",
+      "ls"
+    ],
+    "correct_answer": 1,
+    "explanation": "df (disk free) command shows available disk space on file systems."
+  },
+  {
+    "source": "Introduction to Linux Operating System",
+    "url": "https://www.geeksforgeeks.org/quizzes/intoduction-to-linux-operating-system/",
+    "question": "Your company wants to deploy Linux for cloud servers and enterprise systems requiring high stability. Which distribution choice best matches this need?",
+    "options": [
+      "Kali Linux",
+      "Puppy Linux",
+      "Debian or CentOS",
+      "Linux Mint"
+    ],
+    "correct_answer": 2,
+    "explanation": "Debian and CentOS are known for stability and are widely used in enterprise/cloud environments."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "Which statement correctly describes a 'Linux distribution'?",
+    "options": [
+      "It is only the Linux kernel without any tools or utilities",
+      "It's a combination of the Linux kernel, libraries, utilities and applications packaged together for specific devices",
+      "It's proprietary software sold under commercial license",
+      "It only runs on embedded devices and not on personal computers"
+    ],
+    "correct_answer": 1,
+    "explanation": "A Linux distribution (distro) includes the kernel plus GNU tools, libraries, package manager, and applications."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "What is the primary role of the Linux kernel in the system architecture?",
+    "options": [
+      "It provides the graphical user interface (GUI)",
+      "It acts only as a file manager for user files",
+      "It only runs user-level applications and not device drivers",
+      "It manages hardware resources, process scheduling, memory, I/O and virtualizes hardware for processes"
+    ],
+    "correct_answer": 3,
+    "explanation": "The kernel manages all hardware resources, process scheduling, memory management, I/O, and hardware virtualization."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "Which shell is most commonly the default on many Linux distributions?",
+    "options": [
+      "zsh",
+      "fish",
+      "bash",
+      "csh"
+    ],
+    "correct_answer": 2,
+    "explanation": "Bash (Bourne Again Shell) is the default shell on most Linux distributions."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "Why is shell scripting considered useful in Linux/DevOps environments?",
+    "options": [
+      "It only works for simple one-line commands",
+      "It automates repetitive tasks, enables system administration, and orchestrates complex workflows",
+      "It replaces all programming languages",
+      "It only runs on Windows systems"
+    ],
+    "correct_answer": 1,
+    "explanation": "Shell scripting automates repetitive tasks, system administration, and complex workflow orchestration."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "What is the correct description of a 'shell' in a Linux operating system?",
+    "options": [
+      "A hardware component that connects the CPU to memory",
+      "A command-line interpreter that provides an interface between user and kernel",
+      "A graphical desktop environment",
+      "A type of file system"
+    ],
+    "correct_answer": 1,
+    "explanation": "A shell is a command-line interpreter that acts as an interface between the user and the kernel."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "Which of the following best describes the 'monolithic kernel' referenced in Linux architecture?",
+    "options": [
+      "A kernel where all services run in user space",
+      "A kernel where core services (scheduling, memory, drivers) run in kernel space",
+      "A microkernel with minimal services",
+      "A kernel that only supports single-processor systems"
+    ],
+    "correct_answer": 1,
+    "explanation": "Linux uses a monolithic kernel where core services like process scheduling, memory management, and device drivers run in kernel space."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "If a user wants a lightweight Linux installation suitable for very old hardware, which characteristic should they prioritise?",
+    "options": [
+      "Heavy desktop environment like GNOME or KDE",
+      "Minimal resource usage with lightweight window manager (e.g., LXQt, XFCE, i3)",
+      "Latest bleeding-edge software packages",
+      "Maximum number of pre-installed applications"
+    ],
+    "correct_answer": 1,
+    "explanation": "Lightweight window managers like LXQt, XFCE, or i3 minimize resource usage for old hardware."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "Which of the following is not typically an advantage of using Linux?",
+    "options": [
+      "Open source and free to use",
+      "High stability and uptime",
+      "Extensive hardware driver support out of the box for all devices",
+      "Strong security model with permissions"
+    ],
+    "correct_answer": 2,
+    "explanation": "While Linux has good hardware support, some proprietary drivers (especially GPU, WiFi) may need manual installation."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "In a shell script, what is the purpose of the 'shebang' line (e.g., #!/bin/bash)?",
+    "options": [
+      "It is a comment that is ignored",
+      "It specifies the interpreter that should execute the script",
+      "It sets the script's permissions",
+      "It defines environment variables"
+    ],
+    "correct_answer": 1,
+    "explanation": "The shebang (#!) tells the system which interpreter to use to execute the script."
+  },
+  {
+    "source": "Getting Started with Linux and Shell Scripting",
+    "url": "https://www.geeksforgeeks.org/quizzes/getting-started-with-linux-and-shell-scripting/",
+    "question": "When choosing a Linux distribution for a production server environment, which factor is most important to assess?",
+    "options": [
+      "The default wallpaper and theme",
+      "Long-term support (LTS), stability, security updates, and package ecosystem",
+      "Whether it includes the latest games",
+      "The color of the terminal"
+    ],
+    "correct_answer": 1,
+    "explanation": "Production servers prioritize LTS releases, stability, timely security updates, and a robust package ecosystem."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "What is a Linux distribution?",
+    "options": [
+      "A Linux kernel only",
+      "An operating system built on Linux kernel with software, tools, and package managers",
+      "A type of Linux virus",
+      "A programming language"
+    ],
+    "correct_answer": 1,
+    "explanation": "A Linux distribution is a complete OS built on the Linux kernel with GNU tools, package manager, and applications."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "Which Linux distribution is most recommended for complete beginners?",
+    "options": [
+      "Arch Linux",
+      "Slackware",
+      "Ubuntu or Linux Mint",
+      "Kali Linux"
+    ],
+    "correct_answer": 2,
+    "explanation": "Ubuntu and Linux Mint are user-friendly with good documentation, making them ideal for beginners."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "What is the main purpose of a package manager in Linux distributions?",
+    "options": [
+      "To create new packages",
+      "To install, update, and remove software",
+      "To manage users",
+      "To control hardware"
+    ],
+    "correct_answer": 1,
+    "explanation": "Package managers (apt, dnf, pacman) handle software installation, updates, removal, and dependency resolution."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "Which Linux distribution is specifically designed for cybersecurity and penetration testing?",
+    "options": [
+      "Ubuntu",
+      "Fedora",
+      "Kali Linux",
+      "Debian"
+    ],
+    "correct_answer": 2,
+    "explanation": "Kali Linux is a Debian-based distribution designed for digital forensics and penetration testing."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "What type of release cycle does Arch Linux follow?",
+    "options": [
+      "Fixed release every 6 months",
+      "Long Term Support (LTS) only",
+      "Rolling release",
+      "Annual release"
+    ],
+    "correct_answer": 2,
+    "explanation": "Arch Linux follows a rolling release model - continuous updates instead of discrete versions."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "Which component serves as the core of the operating system, managing hardware resources and system processes?",
+    "options": [
+      "Desktop environment",
+      "Package manager",
+      "Linux kernel",
+      "Shell"
+    ],
+    "correct_answer": 2,
+    "explanation": "The Linux kernel is the core component managing hardware resources and system processes."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "Which Linux distribution is backed by Red Hat and known for having the latest software and technologies?",
+    "options": [
+      "CentOS",
+      "Fedora",
+      "Debian",
+      "openSUSE"
+    ],
+    "correct_answer": 1,
+    "explanation": "Fedora is sponsored by Red Hat and serves as upstream for RHEL, featuring latest technologies."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "What is the primary difference between CentOS and Fedora?",
+    "options": [
+      "CentOS is rolling release, Fedora is fixed",
+      "CentOS is RHEL rebuild (stable), Fedora is upstream with latest features",
+      "CentOS uses apt, Fedora uses dnf",
+      "CentOS is for desktops, Fedora is for servers"
+    ],
+    "correct_answer": 1,
+    "explanation": "CentOS (now CentOS Stream) is a RHEL rebuild focused on stability; Fedora is upstream with cutting-edge features."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "Which of the following is NOT a key component of a Linux distribution?",
+    "options": [
+      "Linux kernel",
+      "GNU utilities and libraries",
+      "Package manager",
+      "Proprietary license"
+    ],
+    "correct_answer": 3,
+    "explanation": "Linux distributions are open source; proprietary licensing is not a component."
+  },
+  {
+    "source": "Introduction to Linux Distributions",
+    "url": "https://www.geeksforgeeks.org/quizzes/introduction-to-linux-distributions/",
+    "question": "What is the main advantage of using Debian as a server distribution?",
+    "options": [
+      "Newest software versions",
+      "Extensive testing, rock-solid stability, and massive package repository",
+      "Best gaming support",
+      "Proprietary driver integration"
+    ],
+    "correct_answer": 1,
+    "explanation": "Debian's extensive testing process, stability, and huge package repository make it excellent for servers."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "How to create a new user john with home directory /home/john and default shell /bin/bash?",
+    "options": [
+      "useradd john",
+      "useradd -m -s /bin/bash john",
+      "useradd -d /home/john -s /bin/bash john",
+      "Both B and C"
+    ],
+    "correct_answer": 3,
+    "explanation": "Both -m (create home) and -d (specify home dir) with -s (shell) work; B creates /home/john automatically, C specifies it explicitly."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "Check user raj's UID, GID, and all group memberships in one command.",
+    "options": [
+      "id raj",
+      "groups raj",
+      "whoami raj",
+      "userinfo raj"
+    ],
+    "correct_answer": 0,
+    "explanation": "The 'id' command shows UID, GID, and all group memberships for a user."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "Add user alice to the developers secondary group without removing other groups.",
+    "options": [
+      "usermod -g developers alice",
+      "usermod -aG developers alice",
+      "groupmod -a alice developers",
+      "gpasswd -a alice developers"
+    ],
+    "correct_answer": 1,
+    "explanation": "usermod -aG (append to supplementary groups) adds user to group without removing existing groups."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "User bob forgot his password. How will you reset it as administrator?",
+    "options": [
+      "passwd bob",
+      "usermod -p newpass bob",
+      "chpasswd bob",
+      "password bob"
+    ],
+    "correct_answer": 0,
+    "explanation": "passwd username (as root) allows resetting a user's password."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "Command to list all users on the system by reading from the appropriate file.",
+    "options": [
+      "cat /etc/passwd",
+      "cat /etc/shadow",
+      "cat /etc/group",
+      "cat /etc/users"
+    ],
+    "correct_answer": 0,
+    "explanation": "/etc/passwd contains all user accounts; /etc/shadow has password hashes (root only)."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "How to delete user testuser and remove their home directory completely?",
+    "options": [
+      "userdel testuser",
+      "userdel -r testuser",
+      "deluser --remove-home testuser",
+      "Both B and C"
+    ],
+    "correct_answer": 3,
+    "explanation": "userdel -r removes user and home directory; deluser --remove-home does the same on Debian-based systems."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "Command to allow user mike to run sudo commands without entering password.",
+    "options": [
+      "Add 'mike ALL=(ALL) NOPASSWD: ALL' to /etc/sudoers",
+      "usermod -aG sudo mike",
+      "passwd -d mike",
+      "chmod 777 /etc/sudoers"
+    ],
+    "correct_answer": 0,
+    "explanation": "NOPASSWD in sudoers allows passwordless sudo; edit with visudo for safety."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "Command to switch to user david's account and load their environment variables (login shell).",
+    "options": [
+      "su david",
+      "su - david",
+      "sudo david",
+      "login david"
+    ],
+    "correct_answer": 1,
+    "explanation": "su - (or su -l) starts a login shell, loading the target user's environment (.profile, .bashrc)."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "How to create a new group finance and add users alice and bob to it?",
+    "options": [
+      "groupadd finance && usermod -aG finance alice bob",
+      "addgroup finance && gpasswd -a alice,bob finance",
+      "groupadd finance && usermod -aG finance alice && usermod -aG finance bob",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All three methods work: groupadd + usermod, addgroup + gpasswd, or sequential usermod commands."
+  },
+  {
+    "source": "Linux User & Access Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-user-access-management/",
+    "question": "Command to unlock a locked user account james after multiple failed login attempts.",
+    "options": [
+      "passwd -u james",
+      "usermod -U james",
+      "faillock --user james --reset",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "passwd -u unlocks password; usermod -U unlocks account; faillock --reset clears failure count."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "You start a long backup process in foreground that takes 3 hours. Halfway through, you realize you need to run another command. What's the best approach?",
+    "options": [
+      "Kill the backup with Ctrl+C and restart later",
+      "Press Ctrl+Z to suspend, then 'bg' to resume in background, then run your command",
+      "Open a new terminal window",
+      "Wait for it to finish"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ctrl+Z suspends the process, 'bg' resumes it in background, freeing the terminal."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "While monitoring with top, you notice process PID 2847 consuming 95% CPU. What command kills it immediately?",
+    "options": [
+      "kill 2847",
+      "kill -9 2847",
+      "kill -15 2847",
+      "pkill 2847"
+    ],
+    "correct_answer": 1,
+    "explanation": "kill -9 (SIGKILL) forces immediate termination; kill (SIGTERM) allows graceful shutdown."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "A critical backup script needs to continue running even after you logout. Which command ensures this?",
+    "options": [
+      "nohup ./backup.sh &",
+      "./backup.sh &",
+      "screen ./backup.sh",
+      "Both A and C"
+    ],
+    "correct_answer": 3,
+    "explanation": "nohup ignores SIGHUP on logout; screen/tmux creates persistent sessions. Both work."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "Check memory usage of process with PID 5432 in real-time without viewing all processes.",
+    "options": [
+      "top -p 5432",
+      "ps aux | grep 5432",
+      "pmap 5432",
+      "free -h"
+    ],
+    "correct_answer": 0,
+    "explanation": "top -p PID monitors specific process in real-time; pmap shows memory map once."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "Process with PID 1234 has nice value +10 (low priority). Increase its priority to -5 while running.",
+    "options": [
+      "renice -5 -p 1234",
+      "renice -n -5 -p 1234",
+      "nice -5 -p 1234",
+      "Both A and B"
+    ],
+    "correct_answer": 3,
+    "explanation": "renice changes priority of running process; both -5 and -n -5 syntax work."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "You have 3 background jobs. Bring the 2nd job back to foreground.",
+    "options": [
+      "fg %2",
+      "fg 2",
+      "jobs 2",
+      "bg %2"
+    ],
+    "correct_answer": 0,
+    "explanation": "fg %job_number brings background job to foreground; %2 refers to job 2."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "Kill all processes named apache2 across the entire system.",
+    "options": [
+      "killall apache2",
+      "pkill apache2",
+      "kill $(pgrep apache2)",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "killall, pkill, and pgrep+kill all can terminate processes by name."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "View CPU usage per core instead of aggregated CPU percentage.",
+    "options": [
+      "Press '1' in top",
+      "htop",
+      "mpstat -P ALL",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "In top press '1'; htop shows per-core by default; mpstat -P ALL reports per-CPU stats."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "Monitor only processes owned by user 'nginx' with detailed output format.",
+    "options": [
+      "ps -f -u nginx",
+      "top -u nginx",
+      "ps aux | grep nginx",
+      "top -p nginx"
+    ],
+    "correct_answer": 0,
+    "explanation": "ps -f -u nginx shows full-format listing for specific user; top -u is interactive."
+  },
+  {
+    "source": "Linux Process Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-process-management/",
+    "question": "A daemon process becomes zombie (shows). How do you fix it?",
+    "options": [
+      "Kill the zombie process directly with kill -9",
+      "Kill or restart the parent process to reap the zombie",
+      "Reboot the system",
+      "Zombies cannot be fixed, only prevented"
+    ],
+    "correct_answer": 1,
+    "explanation": "Zombies are dead processes waiting for parent to read exit status; killing parent makes init reap them."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "You need to install nginx on Ubuntu. After running sudo apt-get install nginx, you get 'Package not found'. What's the first troubleshooting step?",
+    "options": [
+      "sudo apt-cache search nginx",
+      "sudo apt-get update",
+      "sudo apt-get upgrade",
+      "Download nginx manually from website"
+    ],
+    "correct_answer": 1,
+    "explanation": "apt-get update refreshes the package index from repositories; this is always the first step when package not found."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "On CentOS 8+, which command is recommended for installing packages instead of yum?",
+    "options": [
+      "dnf",
+      "apt",
+      "rpm",
+      "zypper"
+    ],
+    "correct_answer": 0,
+    "explanation": "dnf (Dandified YUM) is the next-generation package manager replacing yum in CentOS 8+/RHEL 8+."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "You want apache2 service to start automatically on every system boot. Which command?",
+    "options": [
+      "systemctl start apache2",
+      "systemctl enable apache2",
+      "systemctl status apache2",
+      "systemctl reload apache2"
+    ],
+    "correct_answer": 1,
+    "explanation": "systemctl enable creates symlinks to start service at boot; start only runs it now."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "How to remove mysql-server package on Ubuntu but keep its configuration files?",
+    "options": [
+      "sudo apt-get remove mysql-server",
+      "sudo apt-get purge mysql-server",
+      "sudo apt-get autoremove mysql-server",
+      "sudo dpkg -r mysql-server"
+    ],
+    "correct_answer": 0,
+    "explanation": "remove uninstalls package but keeps configs; purge removes configs too; autoremove removes unused dependencies."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "How to check if ssh service is running and view its recent logs?",
+    "options": [
+      "systemctl status ssh",
+      "journalctl -u ssh",
+      "systemctl status ssh && journalctl -u ssh",
+      "service ssh status"
+    ],
+    "correct_answer": 2,
+    "explanation": "systemctl status shows current state; journalctl -u shows service-specific logs. Both needed for complete picture."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "After modifying nginx.conf, apply changes without disconnecting active users.",
+    "options": [
+      "systemctl restart nginx",
+      "systemctl reload nginx",
+      "systemctl stop nginx && systemctl start nginx",
+      "systemctl enable nginx"
+    ],
+    "correct_answer": 1,
+    "explanation": "reload sends SIGHUP to nginx master process, gracefully reloading config without dropping connections."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "You installed a .deb file with dpkg -i package.deb but got dependency errors. What fixes it?",
+    "options": [
+      "apt-get install -f",
+      "apt-get update",
+      "dpkg --configure -a",
+      "apt-get upgrade"
+    ],
+    "correct_answer": 0,
+    "explanation": "apt-get install -f (fix-broken) resolves and installs missing dependencies after dpkg install."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "List all installed packages on a Debian-based system.",
+    "options": [
+      "dpkg -l",
+      "apt list --installed",
+      "dpkg --get-selections",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All three commands list installed packages with different formats."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "On Arch Linux, how to update package database and upgrade all packages in one command?",
+    "options": [
+      "pacman -Syu",
+      "pacman -Syyu",
+      "pacman -Su",
+      "pacman -S"
+    ],
+    "correct_answer": 0,
+    "explanation": "pacman -Syu syncs database (-Sy) and upgrades all packages (-u) in one command."
+  },
+  {
+    "source": "Linux Package Management",
+    "url": "https://www.geeksforgeeks.org/quizzes/linux-package-management/",
+    "question": "A service fails to start. Which command shows the most detailed error logs?",
+    "options": [
+      "systemctl status service-name",
+      "journalctl -xe",
+      "journalctl -u service-name -n 50",
+      "systemctl list-units --failed"
+    ],
+    "correct_answer": 2,
+    "explanation": "journalctl -u service-name -n 50 shows last 50 lines of logs for that specific service."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "Which of the following commands or sequences of commands will rename a file x to file y in a Unix system? I. mv y, x II. mv x, y III. cp y, x (rm x) IV. cp x, y (rm x)",
+    "options": [
+      "II and III",
+      "II and IV",
+      "I and III",
+      "II only"
+    ],
+    "correct_answer": 1,
+    "explanation": "mv x y renames x to y; cp x y then rm x also achieves rename (copy then delete original)."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "In Unix operating system, special files are used to:",
+    "options": [
+      "buffer data received in its input from where a process reads",
+      "provide a mechanism to map physical device to file names",
+      "store list of file names plus pointers associated with i-nodes",
+      "store information entered by a user application program or utility program"
+    ],
+    "correct_answer": 1,
+    "explanation": "Special files (device files in /dev) provide interface to hardware devices via file names."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "In Unix operating system, when a process creates a new process using the fork() system call, which of the following state is shared between the parent process and child process?",
+    "options": [
+      "Heap",
+      "Stack",
+      "Shared memory segments",
+      "Both Heap and Stack"
+    ],
+    "correct_answer": 2,
+    "explanation": "After fork(), child gets copy of parent's memory (heap, stack), but shared memory segments are truly shared."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "In UNIX, _________ creates three subdirectories: 'PIS' and two subdirectories 'progs' and 'data' from just created subdirectory 'PIS'.",
+    "options": [
+      "mkdir PIS/progs PIS/data PIS",
+      "mkdir PIS progs data",
+      "mkdir PIS PIS/progs PIS/data",
+      "mkdir PIS/progs data"
+    ],
+    "correct_answer": 2,
+    "explanation": "mkdir PIS PIS/progs PIS/data creates PIS first, then progs and data inside it."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "Which of the following statement(s) is/are True regarding 'nice' command of UNIX? I. It is used to set or change the priority of a process. II. A process's nice value can be set at the time of creation. III. 'nice' takes a command line as an argument.",
+    "options": [
+      "I, II only",
+      "II, III only",
+      "I, II, III",
+      "I, III only"
+    ],
+    "correct_answer": 2,
+    "explanation": "All three are true: nice sets priority, can set at creation (nice -n val cmd), and takes command as argument."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "A user level process in Unix traps the signal sent on a Ctrl-C input, and has a signal handling routine that saves appropriate files before terminating the process. When a Ctrl-C input is given to this process, what is the mode in which the signal handling routine executes?",
+    "options": [
+      "kernel mode",
+      "superuser mode",
+      "privileged mode",
+      "user mode"
+    ],
+    "correct_answer": 3,
+    "explanation": "Signal handlers execute in user mode, not kernel mode."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "A student wishes to create symbolic links in a computer system running Unix. Three text files named 'file 1', 'file 2' and 'file 3' exist in her current working directory... The student executes: ln -s file 1 file 2; ln -s file 2 file 3. Which of the following types of information would be lost from her file system? (I) Hobbies (II) Friends (III) Courses",
+    "options": [
+      "(I) and (II) only",
+      "(II) and (III) only",
+      "(II) only",
+      "(I) and (III) only"
+    ],
+    "correct_answer": 2,
+    "explanation": "First ln -s file 1 file 2 makes file 2 a symlink to file 1 (hobbies). Second ln -s file 2 file 3 makes file 3 a symlink to file 2 (which points to file 1). Original file 2 (friends) is overwritten - lost. File 3 (courses) is overwritten - lost. But answer indicates (II) only."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "In Unix, the command to enable execution permission for file 'mylife' by all is ____________.",
+    "options": [
+      "chmod ugo+x myfile",
+      "chmod a+x myfile",
+      "chmod +x myfile",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All three are equivalent: ugo+x (user/group/other), a+x (all), +x (default all)."
+  },
+  {
+    "source": "UNIX",
+    "url": "https://www.geeksforgeeks.org/quizzes/unix-gq/",
+    "question": "Which of the following statement is not correct with reference to cron daemon in UNIX O.S.?",
+    "options": [
+      "The cron daemon is the standard tool for running commands on a pre-determined schedule.",
+      "It starts when the system boots and runs as long as the system is up.",
+      "Cron reads configuration files that contain list of command lines and the times at which they invoked.",
+      "Crontab for individual users are not stored."
+    ],
+    "correct_answer": 3,
+    "explanation": "User crontabs ARE stored (in /var/spool/cron/ or /var/spool/cron/crontabs/). The last statement is false."
+  }
+];
+

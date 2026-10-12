@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test your Linux knowledge with interactive multiple-choice questions.">
+  <title>Linux MCQ Quiz | LinuxHub</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mcq.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="learning-hub.html" aria-label="LinuxHub Practice Lab"><span class="brand-mark">&gt;_</span>Linux<span>Hub</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links"><li><a href="learning-hub.html">Practice Lab</a></li><li><a class="nav-button active" href="mcq.html">MCQ Quiz</a></li></ul>
+    </nav>
+  </header>
+  <main class="quiz-page">
+    <section class="quiz-hero"><div class="container quiz-hero-inner"><div><p class="quiz-eyebrow"><span></span> Question bank</p><h1>Test your Linux<br><em>knowledge.</em></h1><p>Choose a topic, answer one question at a time, and get clear feedback before moving on.</p></div><div class="quiz-score-card"><span>BEST SCORE</span><strong id="best-score">0%</strong><small id="best-score-detail">Complete a quiz to save a score.</small></div></div></section>
+    <section class="container quiz-shell" aria-label="Linux multiple-choice quiz">
+      <aside class="quiz-sidebar"><div class="topic-picker"><label for="topic-select">CHOOSE A TOPIC</label><select id="topic-select" aria-label="Choose a quiz topic"><option value="all">All Linux topics</option></select></div><div class="quiz-session-copy"><span>QUIZ SESSION</span><strong id="session-topic">All Linux topics</strong><p id="question-count">10 questions selected</p></div><div class="question-map-heading"><span>YOUR PROGRESS</span><button id="restart-quiz" type="button">Start over</button></div><ol class="question-map" id="question-map" aria-label="Quiz question navigation"></ol><div class="quiz-note"><span>✦</span><p>Answers are checked locally. Your best score stays on this device.</p></div></aside>
+      <section class="quiz-card" aria-live="polite"><div class="quiz-card-top"><span id="source-label">LINUX FUNDAMENTALS</span><span id="quiz-position">QUESTION 1 OF 10</span></div><div id="quiz-body"><p class="question-number">QUESTION <span id="question-number">01</span></p><h2 id="question-text">Loading your question…</h2><div class="answer-options" id="answer-options" role="radiogroup" aria-label="Answer choices"></div><div class="answer-feedback" id="answer-feedback" hidden role="status"></div><div class="quiz-actions"><button class="quiz-secondary" id="skip-question" type="button">Skip for now</button><button class="quiz-primary" id="check-answer" type="button" disabled>Check answer <span>→</span></button></div></div><div id="quiz-results" hidden></div></section>
+    </section>
+  </main>
+  <footer><div class="container footer-grid"><div><a class="brand" href="learning-hub.html"><span class="brand-mark">&gt;_</span>Linux<span>Hub</span></a><p>Hands-on Linux learning for curious minds.</p></div><div><h3>Practice</h3><a href="learning-hub.html">Command Lab</a><a href="mcq.html">MCQ Quiz</a></div></div><div class="container footer-bottom"><p>© 2026 Linux Learning Hub. Training project.</p><p>Learn by doing <span>♥</span></p></div></footer>
+  <script src="assets/js/main.js"></script><script src="assets/data/geeksforgeeks_linux_mcq.js"></script><script src="assets/js/mcq.js"></script>
+</body>
+</html>
